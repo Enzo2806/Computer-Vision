@@ -13,6 +13,7 @@ The first assignment involved various image processing tasks using Python, prima
 4. **Gaussian Smoothing:** Applied Gaussian smoothing to the images with both 5x5 and 15x15 pixel kernels to reduce noise and detail.
 5. **Gradient Computation:** Calculated x and y image gradients using Sobel filters on the smoothed images.
 6. **Edge Magnitude and Orientation:** Computed the edge gradient magnitude and orientation from the gradients, visualized with an RGB colormap.
+![A1-output](https://github.com/user-attachments/assets/7cfcdd26-e70e-4489-9a1e-0c9657db3983)
 
 ## Assignment 2: Feature Matching, Image Stitching (PANORAMA!)
 
@@ -42,6 +43,7 @@ The second assignment focused on advanced image processing tasks such as feature
    - Detected and matched keypoints between different views of the same scene.
    - Estimated and applied homography using RANSAC to align and transform images.
    - Stitched images together by averaging pixel intensity in the overlap regions and displayed the final stitched images.
+![A2-output](https://github.com/user-attachments/assets/2c90a38c-86bd-4ff5-88b9-d0d38df817a9)
    
 ## Assignment 3: Classifiers, Object Detection
 
@@ -66,6 +68,7 @@ The third assignment focused on machine learning classifiers and object detectio
      - Utilized pre-trained YOLOv5 weights to detect objects in the captured image.
      - Implemented custom functions to draw bounding boxes and labels on detected objects.
      - Experimented with different object detection confidence thresholds and analyzed the impact on detected object counts.
+![A3-output](https://github.com/user-attachments/assets/422d0cb2-4ade-43e6-9c8d-4b7551a5d2ad)
 
 ## Assignment 4: Image Segmentation
 
@@ -86,3 +89,4 @@ The fourth assignment was focused on implementing and evaluating a semantic segm
 4. **Model Evaluation:**
    - Evaluated the model performance using the Dice Score on the validation set.
    - Visualized results by displaying images from the validation set alongside the predicted and ground truth masks.
+![A4-output](https://github.com/user-attachments/assets/7caed433-18eb-4c1d-a88a-646566d0cbd7)
